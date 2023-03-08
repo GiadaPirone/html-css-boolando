@@ -3,3 +3,39 @@
     margin: 0;
     padding: 0;
 }
+
+.clW{ color: white;}
+
+.bgO{ background-color: orange;}
+
+
+.bgCover{
+    background-size: cover;
+}
+
+.flex{
+    display: flex;
+}
+
+.flexAround{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mrg1Em{
+    margin: 1 em;
+}
+
+/* INIZIO HEDER. */
+
+header{
+     position: fixed; /*controllare dopo se funziona */
+    min-height: 50px;
+    width: 100%;
+    padding: 1em;
+}
+
+.imgLogo{
+    max-height: 50px;
+}
+
