@@ -7,14 +7,29 @@
 .clW{ color: white;}
 
 .bgO{ background-color: orange;}
+.bgW{ background-color: white;}
+.bgR{ background-color: red;}
+.bgG{ background-color: green;}
+
+.bgImg1{ background-image: url(./img/1.webp);}
+
 
 
 .bgCover{
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .flex{
     display: flex;
+}
+
+.fxCenter{
+    justify-content: center;
+}
+
+.alCenter{
+    align-items: center;
 }
 
 .flexAround{
@@ -26,10 +41,14 @@
     margin: 1em;
 }
 
+.padd1Em{
+    padding: 1em;
+}
+
 /* INIZIO HEDER. */
 
 header{
-     position: fixed; /*controllare dopo se funziona */
+     /* position: fixed;  */
     min-height: 50px;
     width: 100%;
     padding: 1em;
@@ -39,3 +58,44 @@ header{
     max-height: 50px;
 }
 
+/* INIZIO MAIN. */
+
+.container{
+    min-height: 1600px;
+    min-width: 1400px;
+    background-color: aqua;
+}
+
+/* PRIMO BOX. */
+
+.box{
+    max-height: 800px;
+    width: 450px;
+    
+    position: relative;
+    background-position: -35px;  
+}
+
+.cuore{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+.sconto{
+    width: 60px;
+    position: absolute;
+    bottom: 60px;
+    padding: 2px 0px 2px 10px;
+}
+
+.sostenibilità{
+    position: absolute;
+    padding: 2px 10px 2px 10px;
+    width: 100px;
+    bottom: 60px;
+    left: 65px;
+
+}
