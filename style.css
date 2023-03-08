@@ -30,6 +30,10 @@
     justify-content: center;
 }
 
+.flWrap{
+    flex-wrap: wrap;
+}
+
 .alCenter{
     align-items: center;
 }
@@ -65,7 +69,7 @@ header{
 .container{
     min-height: 1600px;
     min-width: 1400px;
-    background-color: aqua;
+     background-color: aqua; /*da togliere successivamente */
 }
 
 /* PRIMO BOX. */
